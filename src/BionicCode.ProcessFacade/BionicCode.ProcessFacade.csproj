@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>BionicProcessFacade</Title>
+    <Authors>Brian Sampoh</Authors>
+    <Company>BionicCode</Company>
+    <Description>Wraps common CLI calls like 'git push' behind a clean API to avoid any Process hassle.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>BionicCode_logo_github_small.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/BionicCode/bionic-process-facade</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/BionicCode/bionic-process-facade</RepositoryUrl>
+    <PackageTags>git;process;process-abstraction;process-wrapper</PackageTags>
+    <PackageOutputPath>$(OutputPath)\..\..\..\..\package</PackageOutputPath>
+    <IncludeSymbols>True</IncludeSymbols>
+    <Copyright>2026</Copyright>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\BionicCode_logo_github_small.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
