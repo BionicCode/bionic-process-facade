@@ -1,6 +1,5 @@
 ﻿namespace BionicCode.ProcessFacade;
 
-public class Class1
+public class GitClient
 {
-
 }
